@@ -11,6 +11,7 @@ Cada pagina debe tambien mostrar la palabra que coincide con la pagina, como se 
 
 Puntos a considerar:
   - Se está utilizando el FrameWork para React conocido como Next Js, se espera que el candidato lea la documentación necesaria para utilizar el ruteo que utiliza Next. Creando sus respectivas paginas para cada ruta. Puede leer la documentación en el siguiente link: https://nextjs.org/docs
+ - El proyecto utiliza Typescript, se debe de tomar en consideracion para poder crear los componentes de manera adecuada
 
 Puntos extra:
   - Agregar diseño a la NavBar utilizando Tailwind, la libreria ya se encuentra actualizada,configurada y esta en su version 1.9.6, puede leer la documentación en el sigueinte link: https://v1.tailwindcss.com
