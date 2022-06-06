@@ -1,23 +1,16 @@
-# Next.js + Tailwind CSS Example
+La idea de este proyecto es poder ver las aptitudes del candidato y ver como se desenvuelve con tecnologías nuevas.
 
-This example shows how to use [Tailwind CSS](https://tailwindcss.com/) [(v3.0)](https://tailwindcss.com/blog/tailwindcss-v3) with Next.js. It follows the steps outlined in the official [Tailwind docs](https://tailwindcss.com/docs/guides/nextjs).
+Este proyecto tiene 4 divs que van a servir como una NavBar inicial, el candidato tiene que hacer que la NavBar que ya esté, lo mande a las diferentes rutas de la pagina en especifico las siguientes:
 
-## Deploy your own
+  - Al dar click al div de Home debe de llevarlo a la ruta incial, en caso del localhost debe ser localhost:3000
+  - Al dar click al div de About debe de llevarlo a la ruta de about, en caso del localhost debe ser localhost:3000/about
+  - Al dar click al div de Contact debe de llevarlo a la ruta de contact, en caso del localhost debe ser localhost:3000/contact
+  - Al dar click al div de Menu debe de llevarlo a laruta menu, en caso del localhost debe ser localhost:3000/menu
 
-Deploy the example using [Vercel](https://vercel.com?utm_source=github&utm_medium=readme&utm_campaign=next-example) or preview live with [StackBlitz](https://stackblitz.com/github/vercel/next.js/tree/canary/examples/with-tailwindcss)
+Cada pagina debe tambien mostrar la palabra que coincide con la pagina, como se muestra en el ejemplo de Home, en la pagina de about debe mostrarse la palabra About, en la pagina de contact debe mostrarse la palabra de Contact y la pagina de menu debe mostrar la palabra Menu.
 
-[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/git/external?repository-url=https://github.com/vercel/next.js/tree/canary/examples/with-tailwindcss&project-name=with-tailwindcss&repository-name=with-tailwindcss)
+Puntos a considerar:
+  - Se está utilizando el FrameWork para React conocido como Next Js, se espera que el candidato lea la documentación necesaria para utilizar el ruteo que utiliza Next. Creando sus respectivas paginas para cada ruta. Puede leer la documentación en el siguiente link: https://nextjs.org/docs
 
-## How to use
-
-Execute [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app) with [npm](https://docs.npmjs.com/cli/init), [Yarn](https://yarnpkg.com/lang/en/docs/cli/create/), or [pnpm](https://pnpm.io) to bootstrap the example:
-
-```bash
-npx create-next-app --example with-tailwindcss with-tailwindcss-app
-# or
-yarn create next-app --example with-tailwindcss with-tailwindcss-app
-# or
-pnpm create next-app --example with-tailwindcss with-tailwindcss-app
-```
-
-Deploy it to the cloud with [Vercel](https://vercel.com/new?utm_source=github&utm_medium=readme&utm_campaign=next-example) ([Documentation](https://nextjs.org/docs/deployment)).
+Puntos extra:
+  - Agregar diseño a la NavBar utilizando Tailwind, la libreria ya se encuentra actualizada,configurada y esta en su version 1.9.6, puede leer la documentación en el sigueinte link: https://v1.tailwindcss.com
