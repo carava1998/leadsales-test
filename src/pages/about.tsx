@@ -5,7 +5,9 @@ const About: NextPage = () => {
   return (
     <>
       <NavBar/>
-      About
+      <div className="p-4 text-xl text-center font-semibold text-indigo-500">
+          About
+      </div>
     </>
   )
 }
