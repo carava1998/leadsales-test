@@ -10,7 +10,9 @@ function MyApp({ Component, pageProps }: AppProps) {
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <Component {...pageProps} />
-
+      <style jsx global>{`
+        body {background: #ddd6fe; }
+        `}</style>
     </>
   )
 }
